@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Noto Serif KR;
+  font-size: 600;
+}
+.menu-bar{
+  display: block;
+  position: relative;
+}
+.menu-bar .fas {
+  top:0;
+  left:0;
+  z-index:500;
+  font-size:3rem;
+}
+/* icon */
+
+.main-menu{
+  position: relative;
+}
+.main-menu .home{
+  z-index:1;
+  position: absolute;
+}
+.main-menu .interior{
+  z-index:2;
+  position: absolute;
+}
+.main-menu .furniture{
+  z-index:3;
+  position: absolute;
+}

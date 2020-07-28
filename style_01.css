@@ -1,0 +1,46 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  perspective: 800px;
+  display: flex;
+}
+.btnMenu {
+  width: 0px;
+  height: 100vh;
+  left: 0;
+  background-color: #2d2a2e;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  transform: rotateY(30deg);
+}
+.btnMenu .fas {
+  z-index: 3;
+  font-size: 4rem;
+}
+.btnMenu .image-logo {
+  margin-top: 20px;
+  width: 100%;
+  height: 20%;
+}
+.btnMenu .word-logo {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+.menu-wrapper {
+  margin-top: 20px;
+}
+.menu-wrapper .menu-word {
+  margin-top: 30px;
+  font-size: 2rem;
+}
+.main-menu {
+  display: block;
+  transform-origin: right center;
+  transform: rotateY(0deg);
+  width: 100%;
+  height: 100vh;
+  right: 0;
+}
