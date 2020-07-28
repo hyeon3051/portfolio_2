@@ -1,4 +1,3 @@
-
 const main_menu = document.querySelector(".menu-bar");
 const btn_menu = document.querySelector(".btnMenu");
 const logo = main_menu.querySelector(".fas");
@@ -7,17 +6,14 @@ const menuBar = menuWrapper.querySelectorAll(".menu-word> a");
 const main_container = document.querySelector(".main-menu")
 const main = document.querySelectorAll(".main-menu > div");
 
-console.log
-var temp = 0;
 logo.addEventListener("click", function () {
   //메뉴바에서
   btn_menu.style.width = "150px";
   btn_menu.style.opacity = "1";
-  btn_menu.style.transform = "rotateY(30deg)";
+  btn_menu.style.transform = "rotateY(20deg)";
   btn_menu.style.transition = "all 0.5s linear";
   main_container.style.transform = "rotateY(-15deg)";
   main_container.style.transition = "all 0.5s linear";
-  temp = 0;
 });
 
 

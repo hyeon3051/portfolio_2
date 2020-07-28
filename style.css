@@ -19,16 +19,21 @@
 
 .wrapper .btnMenu{
   position: absolute;
+  left:10px;
   width:150px;
 }
 /* icon */
 
-.main-menu{
-  position: relative;
-}
 .main-menu .home{
-  z-index:1;
   position: absolute;
+}
+.main-menu >div>div {
+  transform: rotateY(0deg);
+  z-index:1;
+}
+.main-menu >div > div> div[class^="item"]:hover {
+  transform: rotateY(360deg);
+  transition:all 1s;
 }
 .main-menu .interior{
   z-index:2;
