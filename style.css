@@ -4,15 +4,22 @@
   font-family: Noto Serif KR;
   font-size: 600;
 }
-.menu-bar{
-  display: block;
+.wrapper{
   position: relative;
 }
+.menu-bar{
+  display: block;
+  position: absolute;
+}
 .menu-bar .fas {
-  top:0;
-  left:0;
+  position: relative;
   z-index:500;
   font-size:3rem;
+}
+
+.wrapper .btnMenu{
+  position: absolute;
+  width:150px;
 }
 /* icon */
 
