@@ -31,10 +31,6 @@
   transform: rotateY(0deg);
   z-index:1;
 }
-.main-menu >div > div> div[class^="item"]:hover {
-  transform: rotateY(360deg);
-  transition:all 1s;
-}
 .main-menu .interior{
   z-index:2;
   position: absolute;
